@@ -3035,6 +3035,14 @@ input, select, textarea {
 		display: none !important;
 	}
 
+	body.is-touch .link.thumb:before {
+		opacity: 0.5 !important;
+	}
+
+	body.is-touch .link.thumb:after {
+		display: none !important;
+	}
+
 	body.is-touch #header {
 		background-attachment: scroll;
 		background-size: auto, cover;
