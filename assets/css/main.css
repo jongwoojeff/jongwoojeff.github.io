@@ -1,13 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
-/* body {
-  background: #111;
-} */
-.hidden {
-  opacity:0;
-}
-.console-container {
+
+/* .console-container {
  
   font-family:Khula;
   font-size:2em;
@@ -15,7 +10,7 @@
   height:200px;
   width:600px;
   display:block;
-  position:relative;
+  position:absolute; 
   color:white;
   top:0;
   bottom:0;
@@ -28,7 +23,7 @@
   position:relative;
   top:-0.14em;
   left:10px;
-}
+} */
 
 
 html, body, div, span, applet, object,
@@ -2734,6 +2729,45 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+		#header .console-container {
+			display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-align-items: -moz-flex-end;
+		-webkit-align-items: -webkit-flex-end;
+		-ms-align-items: -ms-flex-end;
+		align-items: flex-end;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+ 
+			font-family:Khula;
+			font-size:2em;
+			text-align:center;
+			height:200px;
+			width:600px;
+			display:block;
+			position:absolute; 
+			color:white;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			margin:auto;
+		  }
+		  #header .console-underscore {
+			 display:inline-block;
+			position:relative;
+			top:-0.14em;
+			left:10px;
+		  }
 
 /* Footer */
 
