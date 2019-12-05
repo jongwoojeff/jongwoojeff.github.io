@@ -3353,6 +3353,7 @@ input, select, textarea {
 				}
 
 				#header .console-container {
+					font-size: 1.35em;
 					text-align:center;
 					position:absolute; 
 				  }
