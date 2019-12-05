@@ -3298,6 +3298,16 @@ input, select, textarea {
 					font-size: 1.35em;
 				}
 
+				#header .console-container {
+					font-size: 1.35em;
+					text-align:center;
+					position: absolute; 
+				  }
+		
+				  #header .console-underscore {
+					position:relative;
+				  }
+
 		/* Footer */
 
 			#footer {
@@ -3341,6 +3351,15 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+
+				#header .console-container {
+					text-align:center;
+					position:absolute; 
+				  }
+		
+				  #header .console-underscore {
+					position:relative;
+				  }
 
 		/* Footer */
 
