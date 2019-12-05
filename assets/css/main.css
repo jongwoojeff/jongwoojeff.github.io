@@ -2684,7 +2684,7 @@ input, select, textarea {
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								100%;
-		color: rgba(255, 255, 255, 0.5);
+		/* color: rgba(255, 255, 255, 0.5); */
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -3300,8 +3300,9 @@ input, select, textarea {
 
 				#header .console-container {
 					font-size: 1.35em;
-					text-align:center;
+					text-align:left;
 					position: absolute; 
+					margin: 150px;
 				  }
 		
 				  #header .console-underscore {
@@ -3356,6 +3357,7 @@ input, select, textarea {
 					font-size: 1.35em;
 					text-align:left;
 					position:absolute; 
+					margin: 150px;
 				  }
 		
 				  #header .console-underscore {
