@@ -3355,7 +3355,7 @@ input, select, textarea {
 
 				#header .console-container {
 					font-size: 1.35em;
-					text-align:left;
+					text-align:center;
 					position:absolute; 
 					margin: 200px 15px 75px;
 					/* margin: ; */
