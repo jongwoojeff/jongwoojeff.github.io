@@ -3302,7 +3302,7 @@ input, select, textarea {
 					font-size: 1.35em;
 					text-align:left;
 					position: absolute; 
-					margin: 150px;
+					margin: 150px 150px 75px;
 				  }
 		
 				  #header .console-underscore {
@@ -3357,7 +3357,7 @@ input, select, textarea {
 					font-size: 1.35em;
 					text-align:left;
 					position:absolute; 
-					margin: 200px 50px 75px;
+					margin: 200px 150px 75px;
 					/* margin: ; */
 				  }
 		
