@@ -114,7 +114,7 @@
 
 //test
 
-consoleText(["Hi, I'm Jongwoo", 'and this is my web page'], 'text',['white','white']);
+consoleText(["Hi, I'm Jongwoo Jeon", 'and this is my web page'], 'text',['white','white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
