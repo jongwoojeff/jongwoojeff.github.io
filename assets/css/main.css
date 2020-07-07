@@ -2226,11 +2226,40 @@ input, select, textarea {
 	opacity: 1.0;
 }
 
-.link.fit {
+.link img {
+	border-radius: 0.35em;
 	display: block;
-	margin: 0 0 2em 0;
-	width: 100%;
 }
+
+.link.left {
+	float: left;
+	margin: 0 1.5em 1em 0;
+	top: 0.25em;
+}
+
+.link.right {
+	float: right;
+	margin: 0 0 1em 1.5em;
+	top: 0.25em;
+}
+
+.link.left, .link.right {
+	max-width: 40%;
+}
+
+	.link.left img, .link.right img {
+		width: 100%;
+	}
+
+	.link.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.link.fit img {
+			width: 100%;
+		}
 
 
 /* List */
