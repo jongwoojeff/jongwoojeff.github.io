@@ -2707,9 +2707,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		/* background-color: #1f1815; */
+		background-color: #0b407c;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/bg2.jpg");
+		/* background-image: url("../../images/bg2.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								100%;
@@ -2844,7 +2844,8 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			/* border-top: solid 2px #efefef; */
+			border-top: solid 2px #140202;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
